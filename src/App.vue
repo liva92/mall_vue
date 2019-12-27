@@ -1,3 +1,9 @@
+<!--
+ * @Author: liva
+ * @Date: 2019-12-25 18:18:25
+ * @LastEditors  : liva
+ * @LastEditTime : 2019-12-27 17:34:58
+ -->
 <template>
   <div id="app">
     <keep-alive exclude="Detail">
@@ -10,24 +16,24 @@
 </template>
 
 <script>
-  import MainTabBar from 'content/mainTabbar/MainTabBar'
-  import Icon from 'content/Icon/Icon.vue'
-  import SvgIcon from 'content/Icon/svg.vue'
+import MainTabBar from "content/mainTabbar/MainTabBar";
+import Icon from "content/Icon/Icon.vue";
+import SvgIcon from "content/Icon/svg.vue";
 
-  export default {
-    name: 'app',
-    components: {
-      MainTabBar,
-      Icon,
-      SvgIcon
-    }
+export default {
+  name: "app",
+  components: {
+    MainTabBar,
+    Icon,
+    SvgIcon
   }
+};
 </script>
 
 <style>
-  @import "assets/css/base.css";
+@import "assets/css/base.css";
 
-  #app {
-    position: relative;
-  }
+#app {
+  position: relative;
+}
 </style>
